@@ -1,0 +1,13 @@
+{
+ "steps": [
+  {
+      "name": "gcr.io/cloud-builders/docker",
+      "args": [
+        "build",
+        "-t",
+        "LOCATION-docker.pkg.dev/fast-metric-352919/us-central1-docker.pkg.dev/fast-metric-352919/myrepo1/python1",
+        "."
+       ]
+   }
+   ]
+ }
